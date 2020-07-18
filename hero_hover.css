@@ -50,7 +50,7 @@ body
     border-bottom: 2px solid rgba(0, 0, 0, .5);
 }
 
-.container .column .content .box
+.container .column .content .lorembox
 {
     position: absolute;
     top: 50%;
@@ -63,13 +63,13 @@ body
     opacity: 0;
 }
 
-.container .column.active .content .box
+.container .column.active .content .lorembox
 {
     opacity: 1;
     transform: translateY(-50%);
 }
 
-.container .column .content .box h2
+.container .column .content .lorembox h2
 {
     margin: 0;
     padding: 0;
@@ -77,7 +77,7 @@ body
     color: #262626;
 }
 
-.container .column .content .box p 
+.container .column .content .lorembox p 
 {
     font-size: 18px;
     color: #262626;

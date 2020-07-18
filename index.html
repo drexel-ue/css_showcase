@@ -6,19 +6,153 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Showcase</title>
     <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="hero_hover.css" type="text/css">
+    <link rel="stylesheet" href="3d_rotating_image_gallery.css" type="text/css">
+    <link rel="stylesheet" href="product_card.css" type="text/css">
 </head>
 
 <body>
 
-    <a href="./hero_hover.html">
-        <h1>Hero Section Hover Effect</h1>
-    </a>
-    <a href="./3d_rotating_image_gallery.html">
-        <h1>3D Rotating Image Gallery</h1>
-    </a>
-    <a href="./product_card.html">
-        <h1>Product Card</h1>
-    </a>
+    <section>
+        <!-- Hero Section Hover Effect -->
+        <div class="slide">
+            <div class="container">
+                <div class="column">
+                    <div class="content">
+                        <h1>1</h1>
+                        <div class="lorembox">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsum illum ex magnam
+                                corporis minima
+                                beatae quis, asperiores dicta et quos error adipisci enim a rerum fugit. Nostrum, sed
+                                libero
+                                omnis adipisci corporis saepe blanditiis neque!</p>
+                        </div>
+                    </div>
+                    <div class="bg bg1"></div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <h1>2</h1>
+                        <div class="lorembox">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsum illum ex magnam
+                                corporis minima
+                                beatae quis, asperiores dicta et quos error adipisci enim a rerum fugit. Nostrum, sed
+                                libero
+                                omnis adipisci corporis saepe blanditiis neque!</p>
+                        </div>
+                    </div>
+                    <div class="bg bg2"></div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <h1>3</h1>
+                        <div class="lorembox">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsum illum ex magnam
+                                corporis minima
+                                beatae quis, asperiores dicta et quos error adipisci enim a rerum fugit. Nostrum, sed
+                                libero
+                                omnis adipisci corporis saepe blanditiis neque!</p>
+                        </div>
+                    </div>
+                    <div class="bg bg3"></div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <h1>4</h1>
+                        <div class="lorembox">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsum illum ex magnam
+                                corporis minima
+                                beatae quis, asperiores dicta et quos error adipisci enim a rerum fugit. Nostrum, sed
+                                libero
+                                omnis adipisci corporis saepe blanditiis neque!</p>
+                        </div>
+                    </div>
+                    <div class="bg bg4"></div>
+                </div>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+            <script type="text/javascript">
+                $(document).on('mouseover', '.container .column', function () {
+                    $(this).addClass('active').siblings().removeClass('active');
+                });
+                $(document).on('mouseleave', '.container .column', function () {
+                    $(this).removeClass('active');
+                });
+            </script>
+        </div>
+
+        <!-- 3D Rotating Image Gallery -->
+        <div class="slide">
+            <div class="box">
+                <span style="--i:1;">
+                    <img src="https://images.unsplash.com/photo-1594872975685-a9652d5de817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2551&q=80"
+                        alt="@jrkopa">
+                </span>
+                <span style="--i:2;">
+                    <img src="https://images.unsplash.com/photo-1594881297273-d12f34cae62c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=858&q=80"
+                        alt="@vasanth">
+                </span>
+                <span style="--i:3;">
+                    <img src="https://images.unsplash.com/photo-1594850598343-a5b0a83c237d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1302&q=80"
+                        alt="@carlosdetoro">
+                </span>
+                <span style="--i:4;">
+                    <img src="https://images.unsplash.com/photo-1594412842408-3c543670a5a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                        alt="@donovan_valdivia">
+                </span>
+                <span style="--i:5;">
+                    <img src="https://images.unsplash.com/photo-1593745565592-b38bb9734145?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                        alt="@karimikaragania">
+                </span>
+                <span style="--i:6;">
+                    <img src="https://images.unsplash.com/photo-1592500002982-c86844dce89e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"
+                        alt="@morningbrew">
+                </span>
+                <span style="--i:7;">
+                    <img src="https://images.unsplash.com/photo-1588516992880-f0389c750bc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                        alt="@luisvidal_18">
+                </span>
+                <span style="--i:8;">
+                    <img src="https://images.unsplash.com/photo-1504505278590-428d1acd0f07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1701&q=80"
+                        alt="@robbie36">
+                </span>
+            </div>
+        </div>
+
+        <!-- Product Card -->
+        <div class="slide">
+            <div class="productcardcontainer">
+                <div class="card">
+                    <div class="imgBox">
+                        <img src="http://pngimg.com/uploads/running_shoes/running_shoes_PNG5816.png"
+                            alt="Nike running shoes">
+                    </div>
+                    <div class="contentBox">
+                        <h2>Nike Shoes</h2>
+                        <div class="size">
+                            <h3>Size :</h3>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                            <span>10</span>
+                        </div>
+                        <div class="color">
+                            <h3>Color :</h3>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 

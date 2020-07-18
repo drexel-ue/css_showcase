@@ -16,12 +16,13 @@ body
     background: #131313;
 }
 
-.container
+.productcardcontainer
 {
     position: relative;
+    margin: 20% 40%;
 }
 
-.container .card
+.productcardcontainer .card
 {
     position: relative;
     width: 320px;
@@ -31,7 +32,7 @@ body
     overflow: hidden;
 }
 
-.container .card:before
+.productcardcontainer .card:before
 {
     content: '';
     position: absolute;
@@ -44,12 +45,12 @@ body
     transition: .5s ease-in-out;
 }
 
-.container .card:hover:before
+.productcardcontainer .card:hover:before
 {
     clip-path: circle(300px at 80% -20%);
 }
 
-.container .card:after
+.productcardcontainer .card:after
 {
     content: 'Nike';
     position: absolute;
@@ -61,7 +62,7 @@ body
     color: rgba(225, 225, 225, .04);
 }
 
-.container .card .imgBox
+.productcardcontainer .card .imgBox
 {
     position: absolute;
     top: 50%;
@@ -72,13 +73,13 @@ body
     transition: .5s;
 }
 
-.container .card:hover .imgBox
+.productcardcontainer .card:hover .imgBox
 {
     top: 0%;
     transform: translateY(-15%) rotateY(180deg);
 }
 
-.container .card .imgBox img
+.productcardcontainer .card .imgBox img
 {
     height: 100%;
     width: 100%;
@@ -86,7 +87,7 @@ body
     transform: rotate(25deg);
 }
 
-.container .card .contentBox
+.productcardcontainer .card .contentBox
 {
     position: absolute;
     bottom: 0;
@@ -97,12 +98,12 @@ body
     z-index: 10;
 }
 
-.container .card:hover .contentBox
+.productcardcontainer .card:hover .contentBox
 {
     height: 210px;
 }
 
-.container .card .contentBox h2
+.productcardcontainer .card .contentBox h2
 {
     position: relative;
     font-weight: 600;
@@ -110,8 +111,8 @@ body
     color: #fff;
 }
 
-.container .card .contentBox .size,
-.container .card .contentBox .color
+.productcardcontainer .card .contentBox .size,
+.productcardcontainer .card .contentBox .color
 {
     display: flex;
     justify-content: center;
@@ -122,22 +123,22 @@ body
     visibility: hidden;
 }
 
-.container .card:hover .contentBox .size
+.productcardcontainer .card:hover .contentBox .size
 {
     opacity: 1;
     visibility: visible;
     transition-delay: .5s;
 }
 
-.container .card:hover .contentBox .color
+.productcardcontainer .card:hover .contentBox .color
 {
     opacity: 1;
     visibility: visible;
     transition-delay: .6s;
 }
 
-.container .card .contentBox .size h3,
-.container .card .contentBox .color h3
+.productcardcontainer .card .contentBox .size h3,
+.productcardcontainer .card .contentBox .color h3
 {
     color: #fff;
     font-weight: 300;
@@ -147,7 +148,7 @@ body
     margin-right: 10px;
 }
 
-.container .card .contentBox .size span
+.productcardcontainer .card .contentBox .size span
 {
     width: 26px;
     height: 26px;
@@ -163,12 +164,12 @@ body
     cursor: pointer;
 }
 
-.container .card .contentBox .size span:hover
+.productcardcontainer .card .contentBox .size span:hover
 {
     background: #9bdc28;
 }
 
-.container .card .contentBox .color span
+.productcardcontainer .card .contentBox .color span
 {
     width: 20px;
     height: 20px;
@@ -178,22 +179,22 @@ body
     cursor: pointer;
 }
 
-.container .card .contentBox .color span:nth-child(2)
+.productcardcontainer .card .contentBox .color span:nth-child(2)
 {
     background: #9bdc28;   
 }
 
-.container .card .contentBox .color span:nth-child(3)
+.productcardcontainer .card .contentBox .color span:nth-child(3)
 {
     background: #03a9f4;   
 }
 
-.container .card .contentBox .color span:nth-child(4)
+.productcardcontainer .card .contentBox .color span:nth-child(4)
 {
     background: #e91e63;   
 }
 
-.container .card .contentBox a
+.productcardcontainer .card .contentBox a
 {
     display: inline-block;
     padding: 10px 20px;
@@ -208,7 +209,7 @@ body
     transition: .5s;
 }
 
-.container .card:hover .contentBox a
+.productcardcontainer .card:hover .contentBox a
 {
     opacity: 1;
     transform: translate(0);
