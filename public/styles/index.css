@@ -34,3 +34,17 @@ section .slide:hover
     flex-grow: 5;
     opacity: 1;
 }
+
+@media (max-width: 770px)
+{
+    section
+    {
+        display: block;
+    }
+    section .slide
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
