@@ -9,6 +9,14 @@
     background: #050801;
 }
 
+@media (max-width: 770px)
+{
+    .neonbuttondiv
+    {
+        width: 100%;
+    }
+}
+
 .neonbuttondiv a
 {
     position: relative;
