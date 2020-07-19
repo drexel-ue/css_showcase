@@ -97,7 +97,7 @@ body
 
 .container .column.active .bg.bg1
 {
-    background: url(https://images.unsplash.com/photo-1594963555043-06ef97974586?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
+    background: url('../images/biker.jpeg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -106,7 +106,7 @@ body
 
 .container .column.active .bg.bg2
 {
-    background: url(https://images.unsplash.com/photo-1592480806142-f973ffdd93b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2534&q=80);
+    background: url('../images/calm.jpeg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -115,7 +115,7 @@ body
 
 .container .column.active .bg.bg3
 {
-    background: url(https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3578&q=80);
+    background: url('../images/laptop.jpeg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -124,7 +124,7 @@ body
 
 .container .column.active .bg.bg4
 {
-    background: url(https://images.unsplash.com/photo-1594793861747-136c34047e9d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2552&q=80);
+    background: url('../images/star_exposure.jpeg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
