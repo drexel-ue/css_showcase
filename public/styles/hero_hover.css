@@ -61,6 +61,7 @@ body
     text-align: center;
     transition: .25s;
     opacity: 0;
+    z-index: 1;
 }
 
 .container .column.active .content .lorembox
@@ -93,6 +94,11 @@ body
     height: 100%;
     pointer-events: none;
     z-index: -1;
+}
+
+.container .column.active .lorembox
+{
+    z-index: 2;
 }
 
 .container .column.active .bg.bg1
